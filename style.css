@@ -1,3 +1,4 @@
+
 div{
 	margin: 0 auto;
 	width: 500px;
@@ -7,4 +8,25 @@ div{
 
 body{
 	background: #144C4A;
+=======
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+th,tr{
+	padding: 5px;
+
+	background-color: #009900;
+
+}
+td{
+	background-color: #00bb00;
+}
+
+
+
+
+table{
+	border-spacing: initial;
+
 }

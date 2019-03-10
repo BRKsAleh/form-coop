@@ -5,15 +5,46 @@
 	<meta charset="UTF-8">
 	<title>formulário</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Orbitron|VT323" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Orbitron|VT323" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+  
+  <style type="text/css">
+	
+.anime {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: relative;
+	animation-name: nada;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes nada{
+	0% 		{background-color: blue; left: 0px; top: 0px;}
+	25% 	{background-color: red; left: 200px; top: 0px;}
+	50% 	{background-color: magenta; left: 200px; top: 200px;}
+	75% 	{background-color: yellow; left: 0px;top: 200px;}
+	100%	{background-color: blue; left: 0px; top: 0px;}
+}
+
+</style>
+
+</head>
+
 
 <body>
 
 
-	<font face="Orbitron" color="white"><h1 align="center" >FrontL1ne Games</h1></font>
+	<h1>FrontL1ne Games</h1>
+  
 	<div> 
 	<form action="" id="#" name="pf" method="POST">
-		<font color="white" face="VT323" size="5"><label>Nome:</label><br>
+
+		<label>Nome:</label><br>
 
 		<input type="Text" name="Name" placeholder="Digite seu nome aqui" maxlength="12" size="40" required><br>
 
@@ -212,10 +243,10 @@
 			<option value="Zimbábue">Zimbábue</option>
 		</select>
 
-		</font>
-
 	</form>
 	</div>
+
+<div class="anime"></div>
 	
 </body>
 </html>
